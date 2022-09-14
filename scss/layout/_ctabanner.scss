@@ -1,0 +1,36 @@
+.cta-banner {
+	margin-top: 9.5rem;
+	padding-block: 2rem;
+	background-color: $clr-primary;
+	color: hsl(0, 0%, 100%);
+}
+
+.banner-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.6875rem;
+}
+
+.banner-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.6875rem;
+}
+
+.delivery-big {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.75rem;
+}
+
+.separator {
+	height: 2.1875rem;
+	width: 1px;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.orders {
+	font-size: 0.875rem;
+}

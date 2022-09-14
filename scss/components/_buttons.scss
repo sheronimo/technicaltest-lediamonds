@@ -11,4 +11,9 @@
 		background-color: $clr-primary;
 		color: hsl(0, 0%, 100%);
 	}
+
+	&-light {
+		color: $clr-primary;
+		background-color: hsl(0, 0%, 100%);
+	}
 }
