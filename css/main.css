@@ -138,6 +138,10 @@ body {
   margin-left: 1rem;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .hero {
   padding-block: 9.5rem;
   background: url("../img/hero.jpg") no-repeat center center/cover;
@@ -466,4 +470,37 @@ body {
 
 .footer-nav {
   margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  .btn {
+    transition: all 0.5s ease;
+  }
+  .btn-primary:hover {
+    color: hsl(28deg, 53%, 40%);
+    background-color: hsl(0deg, 0%, 100%);
+    border: 1px solid hsl(28deg, 53%, 40%);
+  }
+  .btn-light:hover {
+    color: hsl(0deg, 0%, 100%);
+    background-color: hsl(28deg, 53%, 40%);
+    border: 1px solid hsl(0deg, 0%, 100%);
+  }
+  .nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: hsl(0deg, 0%, 0%);
+    border-radius: 10px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+  }
+  .nav-item:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
 }/*# sourceMappingURL=main.css.map */
