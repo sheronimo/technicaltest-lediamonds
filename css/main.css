@@ -108,6 +108,12 @@ body {
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.whatsapp {
+  position: fixed;
+  bottom: 1rem;
+  right: 5.3125rem;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
