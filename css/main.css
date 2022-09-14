@@ -69,6 +69,11 @@ body {
   letter-spacing: 0.05em;
 }
 
+.small-caps {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
 .header {
   padding-block: 2rem;
   background-color: hsl(0deg, 0%, 100%);
@@ -88,9 +93,7 @@ body {
   margin-left: 4.25rem;
 }
 
-.delivery-text {
-  font-size: 0.75rem;
-  text-transform: uppercase;
+.free-delivery {
   margin-left: auto;
   margin-right: 1.25rem;
 }
