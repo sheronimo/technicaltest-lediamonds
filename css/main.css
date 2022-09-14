@@ -101,7 +101,7 @@ body {
 }
 .btn-primary {
   background-color: hsl(28deg, 53%, 40%);
-  color: hsl(0deg, 0%, 100%);
+  color: clr-white;
 }
 .btn-light {
   color: hsl(28deg, 53%, 40%);
@@ -309,7 +309,7 @@ body {
 }
 
 .product-box {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(0deg, 0%, 97%);
   text-align: center;
   padding-bottom: 1.25rem;
 }
@@ -384,7 +384,7 @@ body {
 }
 
 .blog-summary {
-  color: hsl(0deg, 0%, 60%);
+  color: clr-neutral-600;
   font-size: 0.75rem;
   line-height: 1.83;
   padding-bottom: 1.3125rem;
@@ -392,7 +392,7 @@ body {
 
 .blog-footer {
   padding-top: 1.3125rem;
-  border-top: 1px solid #f3f3f3;
+  border-top: 1px solid hsl(0deg, 0%, 97%);
   font-size: 0.625rem;
   color: hsl(0deg, 0%, 60%);
   margin-top: auto;

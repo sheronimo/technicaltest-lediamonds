@@ -9,11 +9,11 @@
 
 	&-primary {
 		background-color: $clr-primary;
-		color: hsl(0, 0%, 100%);
+		color: clr-white;
 	}
 
 	&-light {
 		color: $clr-primary;
-		background-color: hsl(0, 0%, 100%);
+		background-color: $clr-white;
 	}
 }

@@ -2,7 +2,7 @@
 	margin-top: 6.25rem;
 	padding-top: 2.5625rem;
 	padding-bottom: 5.5rem;
-	background-color: hsl(0, 0%, 97%);
+	background-color: $clr-neutral-900;
 }
 
 .blogs-container {
@@ -17,7 +17,7 @@
 }
 
 .blog-post {
-	background-color: hsl(0, 0%, 100%);
+	background-color: $clr-white;
 	width: 310px;
 	height: 500px;
 }
@@ -39,8 +39,8 @@
 	transform: translateY(-50%);
 	font-size: 0.75rem;
 	text-transform: uppercase;
-	background-color: hsl(0, 0%, 14%);
-	color: hsl(0, 0%, 100%);
+	background-color: $clr-neutral-100;
+	color: $clr-white;
 	text-align: center;
 	padding: 7px;
 }
@@ -48,13 +48,13 @@
 .blog-title {
 	font-weight: 400;
 	text-transform: uppercase;
-	color: hsl(0, 0%, 30%);
+	color: $clr-neutral-300;
 	margin-bottom: 0.5625rem;
 	line-height: 1.375;
 }
 
 .blog-summary {
-	color: hsl(0, 0%, 60%);
+	color: clr-neutral-600;
 	font-size: 0.75rem;
 	line-height: 1.83;
 	padding-bottom: 1.3125rem;
@@ -62,8 +62,8 @@
 
 .blog-footer {
 	padding-top: 1.3125rem;
-	border-top: 1px solid #f3f3f3;
+	border-top: 1px solid $clr-neutral-900;
 	font-size: 0.625rem;
-	color: hsl(0, 0%, 60%);
+	color: $clr-neutral-600;
 	margin-top: auto;
 }
