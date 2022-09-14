@@ -85,6 +85,12 @@ body {
   color: hsl(0deg, 0%, 53%);
 }
 
+.bold-caps {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
 .btn {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -154,4 +160,25 @@ body {
 
 .hero .btn {
   margin-top: 1.25rem;
+}
+
+.benefits {
+  margin-top: 4.1875rem;
+}
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.benefit .clr-light {
+  margin-top: 5px;
 }/*# sourceMappingURL=main.css.map */
