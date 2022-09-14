@@ -181,4 +181,58 @@ body {
 
 .benefit .clr-light {
   margin-top: 5px;
+}
+
+.collections {
+  margin-top: 3.625rem;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.big-box,
+.small-box {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.bg-gray {
+  background-image: url("../img/collection-bg/bg1.jpg");
+}
+
+.bg-red {
+  background-image: url("../img/collection-bg/bg2.jpg");
+}
+
+.bg-yellow {
+  background-image: url("../img/collection-bg/bg3.jpg");
+}
+
+.shop-link {
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+.big-box {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding-block: 1.25rem;
+}
+
+.small-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline: 1.25rem;
+}
+
+.small-box div {
+  margin-bottom: 1.25rem;
 }/*# sourceMappingURL=main.css.map */
