@@ -10,3 +10,14 @@
 	font-size: 0.75rem;
 	text-transform: uppercase;
 }
+
+.section-heading {
+	font-family: $ff-headings;
+	font-weight: 500;
+	font-size: 2.25rem;
+	line-height: 2;
+}
+
+.clr-light {
+	color: $clr-light;
+}

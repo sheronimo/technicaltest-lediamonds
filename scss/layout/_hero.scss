@@ -1,0 +1,27 @@
+.hero {
+	padding-block: 9.5rem;
+	background: url('../img/hero.jpg') no-repeat center center/cover;
+}
+
+.hyphenated {
+	display: flex;
+	align-items: center;
+	gap: 0.5625rem;
+	margin-bottom: 1.75rem;
+}
+
+.hyphen {
+	width: 1.5625rem;
+	height: 1px;
+	background-color: hsl(0, 0%, 0%);
+}
+
+.hero .section-heading {
+	font-size: 4rem;
+	line-height: 1.125;
+	margin-bottom: 1.75rem;
+}
+
+.hero .btn {
+	margin-top: 1.25rem;
+}

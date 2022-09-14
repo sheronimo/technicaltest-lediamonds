@@ -1,0 +1,13 @@
+.btn {
+	font-family: $ff-button;
+	font-weight: 500;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	padding: 0.53125rem 1.5625rem;
+	text-transform: uppercase;
+
+	&-primary {
+		background-color: $clr-primary;
+		color: hsl(0, 0%, 100%);
+	}
+}
