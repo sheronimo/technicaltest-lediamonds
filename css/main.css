@@ -20,11 +20,6 @@ select {
   font: inherit;
 }
 
-button,
-a {
-  display: inline-block;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -96,6 +91,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
@@ -216,6 +212,7 @@ body {
 }
 
 .shop-link {
+  display: inline-block;
   margin-top: 0.5rem;
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -331,25 +328,28 @@ body {
   scrollbar-width: none;
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(300px, 1fr);
+  grid-auto-columns: 19rem;
   grid-gap: 0.5625rem;
-  height: 480px;
 }
 
 .blog-post {
   background-color: hsl(0deg, 0%, 100%);
+  width: 310px;
+  height: 500px;
 }
 
 .blog-text {
+  height: calc(100% - 258px);
   padding-inline: 1.125rem;
   padding-top: 1.5625rem;
   padding-bottom: 1.0625rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .category {
   position: absolute;
-  display: block;
   top: 0;
   right: 0;
   transform: translateY(-50%);
@@ -381,4 +381,20 @@ body {
   border-top: 1px solid #f3f3f3;
   font-size: 0.625rem;
   color: hsl(0deg, 0%, 60%);
+  margin-top: auto;
+}
+
+.feed {
+  margin-top: 4.75rem;
+}
+
+.ig-link {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.625rem;
+  color: hsl(28deg, 53%, 40%);
+  margin-bottom: 1.5625rem;
 }/*# sourceMappingURL=main.css.map */
