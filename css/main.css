@@ -207,23 +207,21 @@ body {
 .benefits {
   margin-top: 4.1875rem;
 }
-
-.benefits-list {
+.benefits .benefits-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
   align-items: center;
   justify-items: center;
 }
-
-.benefit {
+.benefits .benefit {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   align-items: flex-start;
   gap: 1rem;
 }
-
-.benefit .clr-light {
+.benefits .benefit .clr-light {
   margin-top: 5px;
 }
 
@@ -632,6 +630,19 @@ body {
   }
   .hero .btn {
     align-self: center;
+  }
+  .benefits {
+    margin-top: 1.875rem;
+  }
+  .benefits .benefits-list {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    row-gap: 2.1875rem;
+  }
+  .benefits .benefit .clr-light {
+    font-size: 0.75rem;
   }
   .whatsapp {
     display: none;

@@ -1,18 +1,19 @@
 .benefits {
 	margin-top: 4.1875rem;
-}
 
-.benefits-list {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	align-items: center;
-	justify-items: center;
-}
+	.benefits-list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.25rem;
+		align-items: center;
+		justify-items: center;
+	}
 
-.benefit {
-	@include flex($justify: stretch, $align: flex-start, $gap: 1rem);
-}
+	.benefit {
+		@include flex($justify: stretch, $align: flex-start, $gap: 1rem);
 
-.benefit .clr-light {
-	margin-top: 5px;
+		.clr-light {
+			margin-top: 5px;
+		}
+	}
 }
