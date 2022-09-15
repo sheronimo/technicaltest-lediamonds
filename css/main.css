@@ -272,9 +272,6 @@ body {
   font-size: 0.875rem;
   text-decoration: underline;
 }
-.collections .shop-link:hover {
-  text-decoration: none;
-}
 .collections .shop-link:focus-visible {
   outline: 2px solid hsl(28deg, 53%, 40%);
   outline-offset: 2px;
@@ -567,6 +564,12 @@ body {
   .nav-item:hover::after {
     transform-origin: left;
     transform: scaleX(1);
+  }
+  .shop-link:hover {
+    text-decoration: none;
+  }
+  .ig-link:hover {
+    color: hsl(0deg, 0%, 0%);
   }
 }
 @media (max-width: 64em) {
