@@ -11,4 +11,30 @@
 		color: $clr-primary;
 		margin-bottom: 1.5625rem;
 	}
+
+	.ig-grid {
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: 15.5rem;
+		grid-gap: 0.5625rem;
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	.circles {
+		@include flex($gap: 0.625rem);
+		margin-top: 1rem;
+
+		.circle {
+			width: 0.5rem;
+			aspect-ratio: 1;
+			border-radius: 50%;
+			background-color: hsl(0, 0%, 91%);
+
+			&.active {
+				background-color: hsl(230, 100%, 26%);
+			}
+		}
+	}
 }

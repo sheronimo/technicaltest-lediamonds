@@ -421,6 +421,32 @@ body {
   color: hsl(28deg, 53%, 40%);
   margin-bottom: 1.5625rem;
 }
+.feed .ig-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 15.5rem;
+  grid-gap: 0.5625rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.feed .circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 1rem;
+}
+.feed .circles .circle {
+  width: 0.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: hsl(0deg, 0%, 91%);
+}
+.feed .circles .circle.active {
+  background-color: hsl(230deg, 100%, 26%);
+}
 
 .cta-banner {
   margin-top: 9.5rem;
