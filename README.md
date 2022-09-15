@@ -26,7 +26,7 @@ I also used a variation of the Bodoni font, Bodoni Moda, which was available on 
 
 ## Built with
 
-This landing page was built with HTML, SCSS and Javascript.
+This landing page was built with HTML, Sass (SCSS) and Javascript. I used SCSS instead of vanilla CSS due to its modularisation capabilities, which greatly streamlined my development process.
 
 ## Challenges
 
