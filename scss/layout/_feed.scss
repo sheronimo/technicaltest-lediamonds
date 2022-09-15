@@ -1,14 +1,14 @@
 .feed {
 	margin-top: 4.75rem;
-}
 
-.ig-link {
-	margin-left: 0.5rem;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-	margin-top: 0.625rem;
-	color: $clr-primary;
-	margin-bottom: 1.5625rem;
+	.ig-link {
+		margin-left: 0.5rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-top: 0.625rem;
+		color: $clr-primary;
+		margin-bottom: 1.5625rem;
+	}
 }

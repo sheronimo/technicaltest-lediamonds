@@ -410,8 +410,7 @@ body {
 .feed {
   margin-top: 4.75rem;
 }
-
-.ig-link {
+.feed .ig-link {
   margin-left: 0.5rem;
   display: inline-flex;
   align-items: center;
@@ -697,6 +696,9 @@ body {
   }
   .blogs .blogs-container {
     margin-top: 1.75rem;
+  }
+  .feed {
+    margin-top: 1.5625rem;
   }
   .whatsapp {
     display: none;
