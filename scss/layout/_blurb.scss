@@ -1,33 +1,30 @@
 .blurb {
 	margin-top: 6.75rem;
-}
 
-.blurb .container {
-	display: grid;
-	padding-left: 5.75rem;
-	align-items: center;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat(5, 1fr);
-}
+	.container {
+		display: grid;
+		padding-left: 5.75rem;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(5, 1fr);
+	}
 
-.blurb-heading {
-	grid-row: 2 / 3;
-}
+	.blurb-heading {
+		grid-row: 2 / 3;
+	}
 
-.lead-text {
-	grid-row: 3 / span 2;
-}
+	.promo-img {
+		grid-column: 2 / 3;
+		grid-row: 1 / -1;
+		margin-left: clamp(1rem, 5vw, 8.625rem);
+	}
 
-.promo-img {
-	grid-column: 2 / 3;
-	grid-row: 1 / -1;
-	margin-left: 8.625rem;
-}
+	.lead-text {
+		grid-row: 3 / span 2;
+		line-height: 1.375;
 
-.lead-text {
-	line-height: 1.375;
-}
-
-.lead-text p {
-	margin-bottom: 1.25rem;
+		p {
+			margin-bottom: 1.25rem;
+		}
+	}
 }

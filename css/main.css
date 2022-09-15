@@ -278,7 +278,6 @@ body {
 .blurb {
   margin-top: 6.75rem;
 }
-
 .blurb .container {
   display: grid;
   padding-left: 5.75rem;
@@ -286,26 +285,19 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
 }
-
-.blurb-heading {
+.blurb .blurb-heading {
   grid-row: 2/3;
 }
-
-.lead-text {
-  grid-row: 3/span 2;
-}
-
-.promo-img {
+.blurb .promo-img {
   grid-column: 2/3;
   grid-row: 1/-1;
-  margin-left: 8.625rem;
+  margin-left: clamp(1rem, 5vw, 8.625rem);
 }
-
-.lead-text {
+.blurb .lead-text {
+  grid-row: 3/span 2;
   line-height: 1.375;
 }
-
-.lead-text p {
+.blurb .lead-text p {
   margin-bottom: 1.25rem;
 }
 
@@ -540,6 +532,9 @@ body {
   }
 }
 @media (max-width: 64em) {
+  .section-heading {
+    line-height: 1.36;
+  }
   .header .delivery-promo {
     display: none;
   }
@@ -562,6 +557,12 @@ body {
   .collections .small-box div {
     margin-bottom: 0.9375rem;
   }
+  .blurb {
+    margin-top: 3.4375rem;
+  }
+  .blurb .container {
+    padding-left: 1.25rem;
+  }
 }
 @media (max-width: 40em) {
   .logo {
@@ -574,7 +575,6 @@ body {
   }
   .section-heading {
     font-size: 1.75rem;
-    line-height: 1.36;
   }
   .bold-caps {
     font-size: 0.625rem;
@@ -653,6 +653,28 @@ body {
   }
   .collections .shop-link {
     font-size: 0.625rem;
+  }
+  .blurb .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.25rem;
+  }
+  .blurb .blurb-heading,
+.blurb .promo-img,
+.blurb .lead-text {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .blurb .blurb-heading {
+    order: 1;
+  }
+  .blurb .promo-img {
+    order: 2;
+    width: 100%;
+    margin: 0;
+  }
+  .blurb .lead-text {
+    order: 3;
   }
   .whatsapp {
     display: none;

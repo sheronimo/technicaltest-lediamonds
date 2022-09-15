@@ -1,4 +1,9 @@
 @media (max-width: 64em) {
+	// Utilities
+	.section-heading {
+		line-height: 1.36;
+	}
+
 	// Header
 	.header {
 		.delivery-promo {
@@ -34,6 +39,14 @@
 			div {
 				margin-bottom: 0.9375rem;
 			}
+		}
+	}
+
+	.blurb {
+		margin-top: 3.4375rem;
+
+		.container {
+			padding-left: 1.25rem;
 		}
 	}
 }
