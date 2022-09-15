@@ -216,6 +216,30 @@
 		}
 	}
 
+	// Footer
+	.footer {
+		padding-block: 1.625rem;
+
+		.footer-grid {
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: 0.75rem;
+			row-gap: 0;
+		}
+
+		.info {
+			grid-column: span 2;
+			margin-bottom: 1.875rem;
+		}
+
+		.know-more {
+			display: none;
+		}
+
+		.contact {
+			grid-column: 2;
+		}
+	}
+
 	// Hide Whatsapp icon
 	.whatsapp {
 		display: none;

@@ -483,24 +483,20 @@ body {
   padding-bottom: 4.875rem;
   font-size: 0.875rem;
 }
-
-.footer-grid {
+.footer .footer-grid {
   display: grid;
   grid-template-columns: 2fr repeat(4, 1fr);
 }
-
-.company-desc {
+.footer .company-desc {
   max-width: 30ch;
   margin-top: 1.4375rem;
   margin-bottom: 0.9375rem;
   line-height: 1.5;
 }
-
-.copyright {
+.footer .copyright {
   text-align: right;
 }
-
-.footer-nav {
+.footer .footer-nav {
   margin-top: 1rem;
 }
 
@@ -570,6 +566,17 @@ body {
   }
   .products .products-grid {
     grid-gap: 0.5rem;
+  }
+  .footer .footer-grid {
+    grid-template-columns: 2fr repeat(2, 1fr);
+    row-gap: 1.875rem;
+  }
+  .footer .copyright {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .footer .info {
+    grid-row: span 2;
   }
 }
 @media (max-width: 40em) {
@@ -732,6 +739,25 @@ body {
   }
   .cta-banner .separator {
     height: 1.5625rem;
+  }
+  .footer {
+    padding-block: 1.625rem;
+  }
+  .footer .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
+    row-gap: 0;
+  }
+  .footer .info {
+    grid-column: span 2;
+    margin-bottom: 1.875rem;
+  }
+  .footer .know-more {
+    display: none;
+  }
+  .footer .contact {
+    grid-column: 2;
   }
   .whatsapp {
     display: none;

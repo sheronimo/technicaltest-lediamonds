@@ -57,4 +57,21 @@
 			grid-gap: 0.5rem;
 		}
 	}
+
+	// Footer
+	.footer {
+		.footer-grid {
+			grid-template-columns: 2fr repeat(2, 1fr);
+			row-gap: 1.875rem;
+		}
+
+		.copyright {
+			margin-top: 2.5rem;
+			text-align: center;
+		}
+
+		.info {
+			grid-row: span 2;
+		}
+	}
 }

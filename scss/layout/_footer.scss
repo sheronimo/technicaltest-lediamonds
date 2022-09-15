@@ -4,24 +4,24 @@
 	padding-top: 4.0625rem;
 	padding-bottom: 4.875rem;
 	font-size: 0.875rem;
-}
 
-.footer-grid {
-	display: grid;
-	grid-template-columns: 2fr repeat(4, 1fr);
-}
+	.footer-grid {
+		display: grid;
+		grid-template-columns: 2fr repeat(4, 1fr);
+	}
 
-.company-desc {
-	max-width: 30ch;
-	margin-top: 1.4375rem;
-	margin-bottom: 0.9375rem;
-	line-height: 1.5;
-}
+	.company-desc {
+		max-width: 30ch;
+		margin-top: 1.4375rem;
+		margin-bottom: 0.9375rem;
+		line-height: 1.5;
+	}
 
-.copyright {
-	text-align: right;
-}
+	.copyright {
+		text-align: right;
+	}
 
-.footer-nav {
-	margin-top: 1rem;
+	.footer-nav {
+		margin-top: 1rem;
+	}
 }
