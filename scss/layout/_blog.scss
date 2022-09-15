@@ -5,64 +5,64 @@
 	background-color: $clr-neutral-900;
 
 	.blogs-container {
-		margin-top: 2.375rem;
-		overflow-x: scroll;
-		-ms-overflow-style: none;
-		scrollbar-width: none;
 		display: grid;
 		grid-auto-flow: column;
 		grid-auto-columns: 19rem;
 		grid-gap: 0.5625rem;
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		margin-top: 2.375rem;
 	}
 
 	.blog-post {
-		background-color: $clr-white;
 		width: 310px;
 		height: 500px;
+		background-color: $clr-white;
 	}
 
 	.blog-text {
+		@include flex(column, stretch, stretch, 0);
+		position: relative;
 		height: calc(100% - 258px);
 		padding-inline: 1.125rem;
 		padding-top: 1.5625rem;
 		padding-bottom: 1.0625rem;
-		position: relative;
-		@include flex(column, stretch, stretch, 0);
 	}
 
 	.category {
 		position: absolute;
 		top: 0;
 		right: 0;
-		transform: translateY(-50%);
-		font-size: 0.75rem;
-		text-transform: uppercase;
+		padding: 7px;
 		background-color: $clr-neutral-100;
+		font-size: 0.75rem;
 		color: $clr-white;
 		text-align: center;
-		padding: 7px;
+		text-transform: uppercase;
+		transform: translateY(-50%);
 	}
 
 	.blog-title {
-		font-weight: 400;
-		text-transform: uppercase;
-		color: $clr-neutral-300;
 		margin-bottom: 0.5625rem;
+		font-weight: 400;
 		line-height: 1.375;
+		color: $clr-neutral-300;
+		text-transform: uppercase;
 	}
 
 	.blog-summary {
-		color: clr-neutral-600;
+		padding-bottom: 1.3125rem;
 		font-size: 0.75rem;
 		line-height: 1.83;
-		padding-bottom: 1.3125rem;
+		color: $clr-neutral-600;
 	}
 
 	.blog-footer {
+		margin-top: auto;
 		padding-top: 1.3125rem;
 		border-top: 1px solid $clr-neutral-900;
 		font-size: 0.625rem;
 		color: $clr-neutral-600;
-		margin-top: auto;
 	}
 }

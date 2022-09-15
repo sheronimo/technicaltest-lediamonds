@@ -51,10 +51,10 @@ ul {
   }
 }
 body {
-  line-height: 1.2;
-  font-family: "Cabin", sans-serif;
-  color: hsl(0deg, 0%, 0%);
   overflow-x: hidden;
+  font-family: "Cabin", sans-serif;
+  line-height: 1.2;
+  color: hsl(0deg, 0%, 0%);
 }
 
 .container {
@@ -64,10 +64,10 @@ body {
 }
 
 .logo {
-  font-size: 1.75rem;
   font-family: "Bodoni Moda", serif;
-  text-transform: uppercase;
+  font-size: 1.75rem;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .small-caps {
@@ -77,8 +77,8 @@ body {
 
 .section-heading {
   font-family: "Playfair Display", serif;
-  font-weight: 500;
   font-size: 2.25rem;
+  font-weight: 500;
   line-height: 2;
 }
 
@@ -87,8 +87,8 @@ body {
 }
 
 .bold-caps {
-  font-weight: 700;
   font-size: 0.875rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -98,11 +98,11 @@ body {
 
 .btn {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
-  line-height: 1.5;
   padding: 0.53125rem 1.5625rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 .btn-primary {
@@ -114,8 +114,8 @@ body {
   outline-offset: 3px;
 }
 .btn-light {
-  color: hsl(28deg, 53%, 40%);
   background-color: hsl(0deg, 0%, 100%);
+  color: hsl(28deg, 53%, 40%);
 }
 .btn-light:focus-visible {
   outline: 1px solid hsl(0deg, 0%, 100%);
@@ -150,12 +150,12 @@ body {
   gap: 0;
 }
 .header .header-right {
-  margin-left: auto;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   align-items: center;
   gap: 0;
+  margin-left: auto;
 }
 .header .delivery-promo {
   margin-right: 1.25rem;
@@ -214,9 +214,9 @@ body {
   background-color: hsl(0deg, 0%, 0%);
 }
 .hero .section-heading {
+  margin-bottom: 1.75rem;
   font-size: 4rem;
   line-height: 1.125;
-  margin-bottom: 1.75rem;
 }
 .hero .btn {
   margin-top: 1.25rem;
@@ -268,21 +268,21 @@ body {
 .collections .shop-link {
   display: inline-block;
   margin-top: 0.5rem;
-  text-transform: uppercase;
   font-size: 0.875rem;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 .collections .shop-link:focus-visible {
   outline: 2px solid hsl(28deg, 53%, 40%);
   outline-offset: 2px;
 }
 .collections .big-box {
-  grid-column: span 2;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   align-items: center;
   gap: 0.625rem;
+  grid-column: span 2;
   padding-block: 1.25rem;
 }
 .collections .small-box {
@@ -302,10 +302,10 @@ body {
 }
 .blurb .container {
   display: grid;
-  padding-left: 5.75rem;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  padding-left: 5.75rem;
 }
 .blurb .blurb-heading {
   grid-row: 2/3;
@@ -333,19 +333,19 @@ body {
 }
 .products .shop-box {
   grid-row: span 2;
-  background: url("../img/bg-bestseller.jpg") no-repeat top left/cover;
   padding-top: 5.625rem;
   padding-inline: 2.5rem;
+  background: url("../img/bg-bestseller.jpg") no-repeat top left/cover;
 }
 .products .shop-box .section-heading {
+  margin-bottom: 1.25rem;
   font-weight: 600;
   line-height: 1.2;
-  margin-bottom: 1.25rem;
 }
 .products .product-box {
+  padding-bottom: 1.25rem;
   background-color: hsl(0deg, 0%, 97%);
   text-align: center;
-  padding-bottom: 1.25rem;
 }
 .products .product-box img {
   max-width: 100%;
@@ -369,77 +369,77 @@ body {
   background-color: hsl(0deg, 0%, 97%);
 }
 .blogs .blogs-container {
-  margin-top: 2.375rem;
-  overflow-x: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 19rem;
   grid-gap: 0.5625rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-top: 2.375rem;
 }
 .blogs .blog-post {
-  background-color: hsl(0deg, 0%, 100%);
   width: 310px;
   height: 500px;
+  background-color: hsl(0deg, 0%, 100%);
 }
 .blogs .blog-text {
-  height: calc(100% - 258px);
-  padding-inline: 1.125rem;
-  padding-top: 1.5625rem;
-  padding-bottom: 1.0625rem;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: stretch;
   gap: 0;
+  position: relative;
+  height: calc(100% - 258px);
+  padding-inline: 1.125rem;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.0625rem;
 }
 .blogs .category {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translateY(-50%);
-  font-size: 0.75rem;
-  text-transform: uppercase;
+  padding: 7px;
   background-color: hsl(0deg, 0%, 14%);
+  font-size: 0.75rem;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-  padding: 7px;
+  text-transform: uppercase;
+  transform: translateY(-50%);
 }
 .blogs .blog-title {
-  font-weight: 400;
-  text-transform: uppercase;
-  color: hsl(0deg, 0%, 30%);
   margin-bottom: 0.5625rem;
+  font-weight: 400;
   line-height: 1.375;
+  color: hsl(0deg, 0%, 30%);
+  text-transform: uppercase;
 }
 .blogs .blog-summary {
-  color: clr-neutral-600;
+  padding-bottom: 1.3125rem;
   font-size: 0.75rem;
   line-height: 1.83;
-  padding-bottom: 1.3125rem;
+  color: hsl(0deg, 0%, 60%);
 }
 .blogs .blog-footer {
+  margin-top: auto;
   padding-top: 1.3125rem;
   border-top: 1px solid hsl(0deg, 0%, 97%);
   font-size: 0.625rem;
   color: hsl(0deg, 0%, 60%);
-  margin-top: auto;
 }
 
 .feed {
   margin-top: 4.75rem;
 }
 .feed .ig-link {
-  margin-left: 0.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   margin-top: 0.625rem;
-  color: hsl(28deg, 53%, 40%);
   margin-bottom: 1.5625rem;
+  margin-left: 0.5rem;
+  color: hsl(28deg, 53%, 40%);
 }
 .feed .ig-link:focus-visible {
   outline: 2px solid hsl(28deg, 53%, 40%);
@@ -487,13 +487,13 @@ body {
   gap: 2.6875rem;
 }
 .cta-banner .delivery-big {
+  font-size: 1.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.75rem;
 }
 .cta-banner .separator {
-  height: 2.1875rem;
   width: 1px;
+  height: 2.1875rem;
   background-color: hsl(0deg, 0%, 100%);
 }
 .cta-banner .orders {
@@ -501,11 +501,11 @@ body {
 }
 
 .footer {
-  background-color: hsl(240deg, 3%, 14%);
-  color: hsl(0deg, 0%, 100%);
   padding-top: 4.0625rem;
   padding-bottom: 4.875rem;
+  background-color: hsl(240deg, 3%, 14%);
   font-size: 0.875rem;
+  color: hsl(0deg, 0%, 100%);
 }
 .footer .footer-grid {
   display: grid;

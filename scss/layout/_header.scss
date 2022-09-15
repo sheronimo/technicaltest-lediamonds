@@ -11,8 +11,8 @@
 	}
 
 	.header-right {
-		margin-left: auto;
 		@include flex($justify: stretch);
+		margin-left: auto;
 	}
 
 	.delivery-promo {

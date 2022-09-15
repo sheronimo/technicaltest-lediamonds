@@ -1,9 +1,9 @@
 // Text Utilities
 .logo {
-	font-size: 1.75rem;
 	font-family: $ff-logo;
-	text-transform: uppercase;
+	font-size: 1.75rem;
 	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
 .small-caps {
@@ -13,8 +13,8 @@
 
 .section-heading {
 	font-family: $ff-headings;
-	font-weight: 500;
 	font-size: 2.25rem;
+	font-weight: 500;
 	line-height: 2;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .bold-caps {
-	font-weight: 700;
 	font-size: 0.875rem;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
