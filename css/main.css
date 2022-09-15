@@ -158,6 +158,8 @@ body {
 
 .nav-list {
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: center;
   gap: min(5vw, 4.0625rem);
   margin-left: 4.25rem;
@@ -174,6 +176,8 @@ body {
 
 .hyphenated {
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: center;
   gap: 0.5625rem;
   margin-bottom: 1.75rem;
@@ -208,6 +212,8 @@ body {
 
 .benefit {
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: flex-start;
   gap: 1rem;
 }
@@ -255,6 +261,8 @@ body {
 .big-box {
   grid-column: span 2;
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: center;
   gap: 0.625rem;
   padding-block: 1.25rem;
@@ -264,6 +272,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: stretch;
+  gap: 0;
   padding-inline: 1.25rem;
 }
 
@@ -442,15 +452,17 @@ body {
 
 .banner-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 2.6875rem;
 }
 
 .banner-text {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 2.6875rem;
 }
 

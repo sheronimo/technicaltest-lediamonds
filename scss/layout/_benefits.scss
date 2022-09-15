@@ -10,9 +10,7 @@
 }
 
 .benefit {
-	display: flex;
-	align-items: flex-start;
-	gap: 1rem;
+	@include flex($justify: stretch, $align: flex-start, $gap: 1rem);
 }
 
 .benefit .clr-light {

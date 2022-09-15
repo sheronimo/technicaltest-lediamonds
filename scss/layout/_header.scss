@@ -7,14 +7,12 @@
 }
 
 .header-container {
-	display: flex;
-	align-items: center;
+	@mixin flex($justify: stretch);
 }
 
 .header-right {
 	margin-left: auto;
-	display: flex;
-	align-items: center;
+	@mixin flex($justify: stretch);
 }
 
 .delivery-promo {

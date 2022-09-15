@@ -6,17 +6,11 @@
 }
 
 .banner-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 2.6875rem;
+	@include flex($gap: 2.6875rem);
 }
 
 .banner-text {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 2.6875rem;
+	@include flex($gap: 2.6875rem);
 }
 
 .delivery-big {

@@ -4,9 +4,7 @@
 }
 
 .hyphenated {
-	display: flex;
-	align-items: center;
-	gap: 0.5625rem;
+	@include flex($justify: stretch, $gap: 0.5625rem);
 	margin-bottom: 1.75rem;
 }
 

@@ -3,9 +3,7 @@
 }
 
 .nav-list {
-	display: flex;
-	align-items: center;
-	gap: min(5vw, 4.0625rem);
+	@include flex($justify: stretch, $gap: min(5vw, 4.0625rem));
 	margin-left: 4.25rem;
 }
 
