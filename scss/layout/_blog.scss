@@ -3,66 +3,66 @@
 	padding-top: 2.5625rem;
 	padding-bottom: 5.5rem;
 	background-color: $clr-neutral-900;
-}
 
-.blogs-container {
-	margin-top: 2.375rem;
-	overflow-x: scroll;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-	display: grid;
-	grid-auto-flow: column;
-	grid-auto-columns: 19rem;
-	grid-gap: 0.5625rem;
-}
+	.blogs-container {
+		margin-top: 2.375rem;
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: 19rem;
+		grid-gap: 0.5625rem;
+	}
 
-.blog-post {
-	background-color: $clr-white;
-	width: 310px;
-	height: 500px;
-}
+	.blog-post {
+		background-color: $clr-white;
+		width: 310px;
+		height: 500px;
+	}
 
-.blog-text {
-	height: calc(100% - 258px);
-	padding-inline: 1.125rem;
-	padding-top: 1.5625rem;
-	padding-bottom: 1.0625rem;
-	position: relative;
-	@include flex(column, stretch, stretch, 0);
-}
+	.blog-text {
+		height: calc(100% - 258px);
+		padding-inline: 1.125rem;
+		padding-top: 1.5625rem;
+		padding-bottom: 1.0625rem;
+		position: relative;
+		@include flex(column, stretch, stretch, 0);
+	}
 
-.category {
-	position: absolute;
-	top: 0;
-	right: 0;
-	transform: translateY(-50%);
-	font-size: 0.75rem;
-	text-transform: uppercase;
-	background-color: $clr-neutral-100;
-	color: $clr-white;
-	text-align: center;
-	padding: 7px;
-}
+	.category {
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translateY(-50%);
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		background-color: $clr-neutral-100;
+		color: $clr-white;
+		text-align: center;
+		padding: 7px;
+	}
 
-.blog-title {
-	font-weight: 400;
-	text-transform: uppercase;
-	color: $clr-neutral-300;
-	margin-bottom: 0.5625rem;
-	line-height: 1.375;
-}
+	.blog-title {
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $clr-neutral-300;
+		margin-bottom: 0.5625rem;
+		line-height: 1.375;
+	}
 
-.blog-summary {
-	color: clr-neutral-600;
-	font-size: 0.75rem;
-	line-height: 1.83;
-	padding-bottom: 1.3125rem;
-}
+	.blog-summary {
+		color: clr-neutral-600;
+		font-size: 0.75rem;
+		line-height: 1.83;
+		padding-bottom: 1.3125rem;
+	}
 
-.blog-footer {
-	padding-top: 1.3125rem;
-	border-top: 1px solid $clr-neutral-900;
-	font-size: 0.625rem;
-	color: $clr-neutral-600;
-	margin-top: auto;
+	.blog-footer {
+		padding-top: 1.3125rem;
+		border-top: 1px solid $clr-neutral-900;
+		font-size: 0.625rem;
+		color: $clr-neutral-600;
+		margin-top: auto;
+	}
 }

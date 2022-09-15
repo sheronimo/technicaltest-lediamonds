@@ -346,8 +346,7 @@ body {
   padding-bottom: 5.5rem;
   background-color: hsl(0deg, 0%, 97%);
 }
-
-.blogs-container {
+.blogs .blogs-container {
   margin-top: 2.375rem;
   overflow-x: scroll;
   -ms-overflow-style: none;
@@ -357,14 +356,12 @@ body {
   grid-auto-columns: 19rem;
   grid-gap: 0.5625rem;
 }
-
-.blog-post {
+.blogs .blog-post {
   background-color: hsl(0deg, 0%, 100%);
   width: 310px;
   height: 500px;
 }
-
-.blog-text {
+.blogs .blog-text {
   height: calc(100% - 258px);
   padding-inline: 1.125rem;
   padding-top: 1.5625rem;
@@ -376,8 +373,7 @@ body {
   align-items: stretch;
   gap: 0;
 }
-
-.category {
+.blogs .category {
   position: absolute;
   top: 0;
   right: 0;
@@ -389,23 +385,20 @@ body {
   text-align: center;
   padding: 7px;
 }
-
-.blog-title {
+.blogs .blog-title {
   font-weight: 400;
   text-transform: uppercase;
   color: hsl(0deg, 0%, 30%);
   margin-bottom: 0.5625rem;
   line-height: 1.375;
 }
-
-.blog-summary {
+.blogs .blog-summary {
   color: clr-neutral-600;
   font-size: 0.75rem;
   line-height: 1.83;
   padding-bottom: 1.3125rem;
 }
-
-.blog-footer {
+.blogs .blog-footer {
   padding-top: 1.3125rem;
   border-top: 1px solid hsl(0deg, 0%, 97%);
   font-size: 0.625rem;
@@ -695,6 +688,14 @@ body {
   }
   .products .shop-box .section-heading {
     max-width: 15ch;
+  }
+  .blogs {
+    margin-top: 2.1875rem;
+    padding-top: 1.375rem;
+    padding-bottom: 1.875rem;
+  }
+  .blogs .blogs-container {
+    margin-top: 1.75rem;
   }
   .whatsapp {
     display: none;
