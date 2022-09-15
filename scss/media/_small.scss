@@ -149,6 +149,34 @@
 		}
 	}
 
+	// Products
+	.products {
+		margin-top: 3.4375rem;
+
+		.container {
+			padding-inline: 0;
+		}
+
+		.products-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 5px;
+		}
+
+		.row3 {
+			grid-row: 3;
+		}
+
+		.shop-box {
+			grid-column: span 2;
+			grid-row: auto;
+			min-height: 29rem;
+
+			.section-heading {
+				max-width: 15ch;
+			}
+		}
+	}
+
 	// Hide Whatsapp icon
 	.whatsapp {
 		display: none;

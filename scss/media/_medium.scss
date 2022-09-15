@@ -42,11 +42,19 @@
 		}
 	}
 
+	// Blurb
 	.blurb {
 		margin-top: 3.4375rem;
 
 		.container {
 			padding-left: 1.25rem;
+		}
+	}
+
+	// Products
+	.products {
+		.products-grid {
+			grid-gap: 0.5rem;
 		}
 	}
 }

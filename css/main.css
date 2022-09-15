@@ -304,42 +304,38 @@ body {
 .products {
   margin-top: 3.875rem;
 }
-
-.products-grid {
+.products .products-grid {
   display: grid;
   grid-template-columns: 2fr repeat(4, minmax(10%, 1fr));
   grid-gap: 1.125rem;
 }
-
-.shop-box {
+.products .shop-box {
   grid-row: span 2;
   background: url("../img/bg-bestseller.jpg") no-repeat top left/cover;
   padding-top: 5.625rem;
   padding-inline: 2.5rem;
 }
-
-.shop-box .section-heading {
+.products .shop-box .section-heading {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1.25rem;
 }
-
-.product-box {
+.products .product-box {
   background-color: hsl(0deg, 0%, 97%);
   text-align: center;
   padding-bottom: 1.25rem;
 }
-
-.product-box .bold-caps,
-.product-box .clr-light {
+.products .product-box img {
+  max-width: 100%;
+}
+.products .product-box .bold-caps,
+.products .product-box .clr-light {
   font-size: 0.75rem;
 }
-
-.product-box .bold-caps {
+.products .product-box .bold-caps {
   margin-bottom: 5px;
 }
-
-.product-img {
+.products .product-img {
   max-width: 12.5rem;
   margin-inline: auto;
 }
@@ -563,6 +559,9 @@ body {
   .blurb .container {
     padding-left: 1.25rem;
   }
+  .products .products-grid {
+    grid-gap: 0.5rem;
+  }
 }
 @media (max-width: 40em) {
   .logo {
@@ -675,6 +674,27 @@ body {
   }
   .blurb .lead-text {
     order: 3;
+  }
+  .products {
+    margin-top: 3.4375rem;
+  }
+  .products .container {
+    padding-inline: 0;
+  }
+  .products .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .products .row3 {
+    grid-row: 3;
+  }
+  .products .shop-box {
+    grid-column: span 2;
+    grid-row: auto;
+    min-height: 29rem;
+  }
+  .products .shop-box .section-heading {
+    max-width: 15ch;
   }
   .whatsapp {
     display: none;
