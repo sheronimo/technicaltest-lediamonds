@@ -16,7 +16,7 @@
 	.promo-img {
 		grid-column: 2 / 3;
 		grid-row: 1 / -1;
-		margin-left: clamp(1rem, 5vw, 8.625rem);
+		padding-left: clamp(1rem, 5vw, 8.625rem);
 	}
 
 	.lead-text {

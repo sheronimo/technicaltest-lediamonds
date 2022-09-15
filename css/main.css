@@ -293,7 +293,7 @@ body {
 .blurb .promo-img {
   grid-column: 2/3;
   grid-row: 1/-1;
-  margin-left: clamp(1rem, 5vw, 8.625rem);
+  padding-left: clamp(1rem, 5vw, 8.625rem);
 }
 .blurb .lead-text {
   grid-row: 3/span 2;
@@ -686,7 +686,7 @@ body {
   .blurb .promo-img {
     order: 2;
     width: 100%;
-    margin: 0;
+    padding-left: 0;
   }
   .blurb .lead-text {
     order: 3;
