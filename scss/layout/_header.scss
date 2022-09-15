@@ -11,22 +11,16 @@
 	align-items: center;
 }
 
-.nav-list {
+.header-right {
+	margin-left: auto;
 	display: flex;
 	align-items: center;
-	gap: min(5vw, 4.0625rem);
-	margin-left: 4.25rem;
 }
 
-.free-delivery {
-	margin-left: auto;
+.delivery-promo {
 	margin-right: 1.25rem;
 }
 
 .icon-login {
 	margin-left: 1rem;
-}
-
-.nav-item {
-	position: relative;
 }

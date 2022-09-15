@@ -1,0 +1,14 @@
+.nav-toggle {
+	display: none;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: min(5vw, 4.0625rem);
+	margin-left: 4.25rem;
+}
+
+.nav-item {
+	position: relative;
+}
