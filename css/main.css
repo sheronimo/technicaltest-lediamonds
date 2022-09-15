@@ -155,6 +155,10 @@ body {
 .header .icon-login {
   margin-left: 1rem;
 }
+.header .header-icon:focus-visible {
+  outline: 2px solid hsl(28deg, 53%, 40%);
+  outline-offset: 2px;
+}
 
 .nav-toggle {
   display: none;
@@ -171,6 +175,10 @@ body {
 
 .nav-item {
   position: relative;
+}
+.nav-item a:focus-visible {
+  outline: 2px solid hsl(0deg, 0%, 0%);
+  outline-offset: 4px;
 }
 
 .hero {

@@ -22,4 +22,9 @@
 	.icon-login {
 		margin-left: 1rem;
 	}
+
+	.header-icon:focus-visible {
+		outline: 2px solid $clr-primary;
+		outline-offset: 2px;
+	}
 }
