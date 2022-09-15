@@ -113,6 +113,10 @@ body {
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.delivery-banner {
+  display: none;
+}
+
 .whatsapp {
   display: block;
   position: fixed;
@@ -532,6 +536,12 @@ body {
   }
 }
 @media (max-width: 40em) {
+  .delivery-banner {
+    display: block;
+    background-color: hsl(28deg, 53%, 40%);
+    color: hsl(0deg, 0%, 100%);
+    padding-block: 0.625rem;
+  }
   .icon-login {
     display: none;
   }
