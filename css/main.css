@@ -502,6 +502,16 @@ body {
 .footer .footer-nav {
   margin-top: 1rem;
 }
+.footer .footer-nav a {
+  transition: color 0.3s ease;
+}
+.footer .footer-nav a:hover {
+  color: hsl(0deg, 0%, 80%);
+}
+.footer .footer-nav a:focus-visible {
+  outline: 2px solid hsl(0deg, 0%, 100%);
+  outline-offset: 4px;
+}
 
 @media (hover: hover) {
   .btn {

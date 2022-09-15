@@ -23,5 +23,18 @@
 
 	.footer-nav {
 		margin-top: 1rem;
+
+		a {
+			transition: color 0.3s ease;
+		}
+
+		a:hover {
+			color: hsl(0, 0%, 80%);
+		}
+
+		a:focus-visible {
+			outline: 2px solid $clr-white;
+			outline-offset: 4px;
+		}
 	}
 }
