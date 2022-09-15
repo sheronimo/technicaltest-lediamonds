@@ -681,11 +681,15 @@ body {
   .hero {
     padding-bottom: 0;
   }
+  .hero .hyphenated {
+    margin-bottom: 5px;
+  }
   .hero .small-caps {
     font-size: 0.5rem;
   }
   .hero .section-heading {
     font-size: 1.75rem;
+    margin-bottom: 0.625rem;
   }
   .hero .btn {
     align-self: center;
@@ -751,6 +755,10 @@ body {
   }
   .products .shop-box .section-heading {
     max-width: 15ch;
+    margin-bottom: 0.625rem;
+  }
+  .products .product-box .bold-caps {
+    margin-bottom: 3.8px;
   }
   .blogs {
     margin-top: 2.1875rem;

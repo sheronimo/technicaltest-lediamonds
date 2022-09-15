@@ -78,12 +78,17 @@
 	.hero {
 		padding-bottom: 0;
 
+		.hyphenated {
+			margin-bottom: 5px;
+		}
+
 		.small-caps {
 			font-size: 0.5rem;
 		}
 
 		.section-heading {
 			font-size: 1.75rem;
+			margin-bottom: 0.625rem;
 		}
 
 		.btn {
@@ -173,6 +178,13 @@
 
 			.section-heading {
 				max-width: 15ch;
+				margin-bottom: 0.625rem;
+			}
+		}
+
+		.product-box {
+			.bold-caps {
+				margin-bottom: 3.8px;
 			}
 		}
 	}
