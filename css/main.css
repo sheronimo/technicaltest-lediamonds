@@ -228,40 +228,33 @@ body {
 .collections {
   margin-top: 3.625rem;
 }
-
-.collection-grid {
+.collections .collection-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-
-.big-box,
-.small-box {
+.collections .big-box,
+.collections .small-box {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
-
-.bg-gray {
+.collections .bg-gray {
   background-image: url("../img/collection-bg/bg1.jpg");
 }
-
-.bg-red {
+.collections .bg-red {
   background-image: url("../img/collection-bg/bg2.jpg");
 }
-
-.bg-yellow {
+.collections .bg-yellow {
   background-image: url("../img/collection-bg/bg3.jpg");
 }
-
-.shop-link {
+.collections .shop-link {
   display: inline-block;
   margin-top: 0.5rem;
   text-transform: uppercase;
   font-size: 0.875rem;
   text-decoration: underline;
 }
-
-.big-box {
+.collections .big-box {
   grid-column: span 2;
   display: flex;
   flex-direction: row;
@@ -270,8 +263,7 @@ body {
   gap: 0.625rem;
   padding-block: 1.25rem;
 }
-
-.small-box {
+.collections .small-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -279,8 +271,7 @@ body {
   gap: 0;
   padding-inline: 1.25rem;
 }
-
-.small-box div {
+.collections .small-box div {
   margin-bottom: 1.25rem;
 }
 
@@ -558,6 +549,19 @@ body {
   .hero .section-heading {
     max-width: 8ch;
   }
+  .collections .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5px;
+  }
+  .collections .box-necklace {
+    grid-row-start: 4;
+  }
+  .collections .big-box {
+    padding-block: 0.75rem;
+  }
+  .collections .small-box div {
+    margin-bottom: 0.9375rem;
+  }
 }
 @media (max-width: 40em) {
   .logo {
@@ -643,6 +647,12 @@ body {
   }
   .benefits .benefit .clr-light {
     font-size: 0.75rem;
+  }
+  .collections .big-box img {
+    max-width: 210px;
+  }
+  .collections .shop-link {
+    font-size: 0.625rem;
   }
   .whatsapp {
     display: none;
