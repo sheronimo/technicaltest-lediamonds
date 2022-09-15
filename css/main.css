@@ -585,6 +585,9 @@ body {
   .hero .section-heading {
     max-width: 8ch;
   }
+  .collections .container {
+    padding-inline: 0;
+  }
   .collections .collection-grid {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 5px;
