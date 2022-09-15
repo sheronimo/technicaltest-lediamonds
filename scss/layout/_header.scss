@@ -4,21 +4,21 @@
 	padding-block: 2rem;
 	background-color: $clr-white;
 	box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.1);
-}
 
-.header-container {
-	@mixin flex($justify: stretch);
-}
+	.header-container {
+		@include flex($justify: stretch);
+	}
 
-.header-right {
-	margin-left: auto;
-	@mixin flex($justify: stretch);
-}
+	.header-right {
+		margin-left: auto;
+		@include flex($justify: stretch);
+	}
 
-.delivery-promo {
-	margin-right: 1.25rem;
-}
+	.delivery-promo {
+		margin-right: 1.25rem;
+	}
 
-.icon-login {
-	margin-left: 1rem;
+	.icon-login {
+		margin-left: 1rem;
+	}
 }

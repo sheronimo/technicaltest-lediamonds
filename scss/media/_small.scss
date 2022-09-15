@@ -1,4 +1,9 @@
 @media (max-width: 40em) {
+	// Utility Classes
+	.logo {
+		font-size: 1.25rem;
+	}
+
 	// Free Delivery Banner
 	.delivery-banner {
 		display: block;
@@ -7,51 +12,72 @@
 		padding-block: 0.625rem;
 	}
 
-	.header-right {
-		position: relative;
-	}
+	// Header
+	.header {
+		.header-right {
+			position: relative;
+		}
 
-	.icon-login {
-		display: none;
-	}
+		.icon-login {
+			display: none;
+		}
 
-	.icon-cart {
-		margin-right: 2.25rem;
-	}
+		.icon-cart {
+			margin-right: 2.25rem;
+		}
 
-	.nav-toggle {
-		display: block;
-		position: absolute;
-		z-index: 1000;
-		top: 0;
-		right: 0;
-		width: 1.25rem;
-		aspect-ratio: 1;
-		background-color: transparent;
-	}
+		.nav-toggle {
+			display: block;
+			position: absolute;
+			z-index: 1000;
+			top: 0;
+			right: 0;
+			width: 1.25rem;
+			aspect-ratio: 1;
+			background-color: transparent;
+		}
 
-	.primary-nav {
-		position: fixed;
-		z-index: 999;
-		inset: 0 0 0 10%;
-		background-color: $clr-white;
-		font-size: 2rem;
-		transform: translateX(100%);
-		transition: transform 0.3s ease;
-		padding-top: 8rem;
-		padding-right: 10rem;
+		.primary-nav {
+			position: fixed;
+			z-index: 999;
+			inset: 0 0 0 10%;
+			background-color: $clr-white;
+			font-size: 2rem;
+			transform: translateX(100%);
+			transition: transform 0.3s ease;
+			padding-top: 8rem;
+			padding-right: 10rem;
 
-		&.visible {
-			transform: translateX(0%);
+			&.visible {
+				transform: translateX(0%);
+			}
+		}
+
+		.nav-list {
+			flex-direction: column;
+			gap: 5rem;
+			align-items: flex-start;
 		}
 	}
 
-	.nav-list {
-		flex-direction: column;
-		gap: 5rem;
-		align-items: flex-start;
+	// Hero
+	.hero {
+		padding-bottom: 0;
+
+		.small-caps {
+			font-size: 0.5rem;
+		}
+
+		.section-heading {
+			font-size: 1.75rem;
+		}
+
+		.btn {
+			align-self: center;
+		}
 	}
 
+	// Hide Whatsapp icon
 	.whatsapp {
 		display: none;
 	}

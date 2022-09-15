@@ -1,25 +1,29 @@
 .hero {
 	padding-block: 9.5rem;
 	background: url('../img/hero.jpg') no-repeat center center/cover;
-}
 
-.hyphenated {
-	@include flex($justify: stretch, $gap: 0.5625rem);
-	margin-bottom: 1.75rem;
-}
+	.container {
+		@include flex($direction: column, $align: flex-start);
+	}
 
-.hyphen {
-	width: 1.5625rem;
-	height: 1px;
-	background-color: $clr-black;
-}
+	.hyphenated {
+		@include flex($justify: stretch, $gap: 0.5625rem);
+		margin-bottom: 1.75rem;
+	}
 
-.hero .section-heading {
-	font-size: 4rem;
-	line-height: 1.125;
-	margin-bottom: 1.75rem;
-}
+	.hyphen {
+		width: 1.5625rem;
+		height: 1px;
+		background-color: $clr-black;
+	}
 
-.hero .btn {
-	margin-top: 1.25rem;
+	.section-heading {
+		font-size: 4rem;
+		line-height: 1.125;
+		margin-bottom: 1.75rem;
+	}
+
+	.btn {
+		margin-top: 1.25rem;
+	}
 }

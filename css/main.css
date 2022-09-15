@@ -132,23 +132,25 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   box-shadow: 0px 4px 4px hsla(0deg, 0%, 0%, 0.1);
 }
-
-.header-container {
+.header .header-container {
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: center;
+  gap: 0;
 }
-
-.header-right {
+.header .header-right {
   margin-left: auto;
   display: flex;
+  flex-direction: row;
+  justify-content: stretch;
   align-items: center;
+  gap: 0;
 }
-
-.delivery-promo {
+.header .delivery-promo {
   margin-right: 1.25rem;
 }
-
-.icon-login {
+.header .icon-login {
   margin-left: 1rem;
 }
 
@@ -173,8 +175,14 @@ body {
   padding-block: 9.5rem;
   background: url("../img/hero.jpg") no-repeat center center/cover;
 }
-
-.hyphenated {
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+}
+.hero .hyphenated {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
@@ -182,19 +190,16 @@ body {
   gap: 0.5625rem;
   margin-bottom: 1.75rem;
 }
-
-.hyphen {
+.hero .hyphen {
   width: 1.5625rem;
   height: 1px;
   background-color: hsl(0deg, 0%, 0%);
 }
-
 .hero .section-heading {
   font-size: 4rem;
   line-height: 1.125;
   margin-bottom: 1.75rem;
 }
-
 .hero .btn {
   margin-top: 1.25rem;
 }
@@ -390,6 +395,9 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  gap: 0;
 }
 
 .category {
@@ -543,27 +551,36 @@ body {
   }
 }
 @media (max-width: 64em) {
-  .delivery-promo {
+  .header .delivery-promo {
     display: none;
+  }
+  .hero {
+    padding-block: 3.75rem;
+  }
+  .hero .section-heading {
+    max-width: 8ch;
   }
 }
 @media (max-width: 40em) {
+  .logo {
+    font-size: 1.25rem;
+  }
   .delivery-banner {
     display: block;
     background-color: hsl(28deg, 53%, 40%);
     color: hsl(0deg, 0%, 100%);
     padding-block: 0.625rem;
   }
-  .header-right {
+  .header .header-right {
     position: relative;
   }
-  .icon-login {
+  .header .icon-login {
     display: none;
   }
-  .icon-cart {
+  .header .icon-cart {
     margin-right: 2.25rem;
   }
-  .nav-toggle {
+  .header .nav-toggle {
     display: block;
     position: absolute;
     z-index: 1000;
@@ -573,7 +590,7 @@ body {
     aspect-ratio: 1;
     background-color: transparent;
   }
-  .primary-nav {
+  .header .primary-nav {
     position: fixed;
     z-index: 999;
     inset: 0 0 0 10%;
@@ -584,13 +601,25 @@ body {
     padding-top: 8rem;
     padding-right: 10rem;
   }
-  .primary-nav.visible {
+  .header .primary-nav.visible {
     transform: translateX(0%);
   }
-  .nav-list {
+  .header .nav-list {
     flex-direction: column;
     gap: 5rem;
     align-items: flex-start;
+  }
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero .small-caps {
+    font-size: 0.5rem;
+  }
+  .hero .section-heading {
+    font-size: 1.75rem;
+  }
+  .hero .btn {
+    align-self: center;
   }
   .whatsapp {
     display: none;
