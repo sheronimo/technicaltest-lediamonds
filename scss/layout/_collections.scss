@@ -32,10 +32,6 @@
 		font-size: 0.875rem;
 		text-decoration: underline;
 
-		&:hover {
-			text-decoration: none;
-		}
-
 		&:focus-visible {
 			outline: 2px solid $clr-primary;
 			outline-offset: 2px;

@@ -37,4 +37,12 @@
 		transform-origin: left;
 		transform: scaleX(1);
 	}
+
+	.shop-link:hover {
+		text-decoration: none;
+	}
+
+	.ig-link:hover {
+		color: $clr-black;
+	}
 }
