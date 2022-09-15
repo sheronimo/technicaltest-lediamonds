@@ -256,6 +256,9 @@ body {
   font-size: 0.875rem;
   text-decoration: underline;
 }
+.collections .shop-link:hover {
+  text-decoration: none;
+}
 .collections .big-box {
   grid-column: span 2;
   display: flex;

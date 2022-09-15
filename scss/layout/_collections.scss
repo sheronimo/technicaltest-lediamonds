@@ -31,6 +31,10 @@
 		text-transform: uppercase;
 		font-size: 0.875rem;
 		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	.big-box {
