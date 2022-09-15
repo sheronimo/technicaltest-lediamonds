@@ -10,10 +10,20 @@
 	&-primary {
 		background-color: $clr-primary;
 		color: $clr-white;
+
+		&:focus-visible {
+			outline: 1px solid $clr-primary;
+			outline-offset: 3px;
+		}
 	}
 
 	&-light {
 		color: $clr-primary;
 		background-color: $clr-white;
+
+		&:focus-visible {
+			outline: 1px solid $clr-white;
+			outline-offset: 3px;
+		}
 	}
 }
