@@ -22,6 +22,8 @@ I added some chunks of functionality that were not explicitly specified in the d
 
 In terms of other differences from the design document, minor adjustments were made to attributes such as margin and padding, where rounding up/down was done when the design document specified a number with decimals.
 
+I also used a variation of the Bodoni font, Bodoni Moda, which was available on [Google Fonts](https://fonts.google.com/specimen/Bodoni+Moda?query=bodoni+moda), due to Bodoni 72 not being available for free usage.
+
 ## Built with
 
 This landing page was built with HTML, SCSS and Javascript.
