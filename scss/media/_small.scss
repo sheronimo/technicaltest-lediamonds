@@ -193,6 +193,29 @@
 		margin-top: 1.5625rem;
 	}
 
+	// CTA Banner
+	.cta-banner {
+		margin-top: 3.4375rem;
+		padding-block: 1.25rem;
+
+		.banner-container {
+			flex-direction: column;
+			gap: 0.625rem;
+		}
+
+		.banner-text {
+			gap: 0.625rem;
+		}
+
+		.delivery-big {
+			font-size: 1.25rem;
+		}
+
+		.separator {
+			height: 1.5625rem;
+		}
+	}
+
 	// Hide Whatsapp icon
 	.whatsapp {
 		display: none;

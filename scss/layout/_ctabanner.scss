@@ -3,28 +3,25 @@
 	padding-block: 2rem;
 	background-color: $clr-primary;
 	color: $clr-white;
-}
 
-.banner-container {
-	@include flex($gap: 2.6875rem);
-}
+	.banner-container,
+	.banner-text {
+		@include flex($gap: 2.6875rem);
+	}
 
-.banner-text {
-	@include flex($gap: 2.6875rem);
-}
+	.delivery-big {
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.75rem;
+	}
 
-.delivery-big {
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 1.75rem;
-}
+	.separator {
+		height: 2.1875rem;
+		width: 1px;
+		background-color: $clr-white;
+	}
 
-.separator {
-	height: 2.1875rem;
-	width: 1px;
-	background-color: $clr-white;
-}
-
-.orders {
-	font-size: 0.875rem;
+	.orders {
+		font-size: 0.875rem;
+	}
 }

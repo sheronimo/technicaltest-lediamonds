@@ -54,6 +54,7 @@ body {
   line-height: 1.2;
   font-family: "Cabin", sans-serif;
   color: hsl(0deg, 0%, 0%);
+  overflow-x: hidden;
 }
 
 .container {
@@ -427,36 +428,25 @@ body {
   background-color: hsl(28deg, 53%, 40%);
   color: hsl(0deg, 0%, 100%);
 }
-
-.banner-container {
+.cta-banner .banner-container,
+.cta-banner .banner-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2.6875rem;
 }
-
-.banner-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2.6875rem;
-}
-
-.delivery-big {
+.cta-banner .delivery-big {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.75rem;
 }
-
-.separator {
+.cta-banner .separator {
   height: 2.1875rem;
   width: 1px;
   background-color: hsl(0deg, 0%, 100%);
 }
-
-.orders {
+.cta-banner .orders {
   font-size: 0.875rem;
 }
 
@@ -699,6 +689,23 @@ body {
   }
   .feed {
     margin-top: 1.5625rem;
+  }
+  .cta-banner {
+    margin-top: 3.4375rem;
+    padding-block: 1.25rem;
+  }
+  .cta-banner .banner-container {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .cta-banner .banner-text {
+    gap: 0.625rem;
+  }
+  .cta-banner .delivery-big {
+    font-size: 1.25rem;
+  }
+  .cta-banner .separator {
+    height: 1.5625rem;
   }
   .whatsapp {
     display: none;
