@@ -542,11 +542,14 @@ body {
     color: hsl(0deg, 0%, 100%);
     padding-block: 0.625rem;
   }
+  .header-right {
+    position: relative;
+  }
   .icon-login {
     display: none;
   }
-  .header-right {
-    position: relative;
+  .icon-cart {
+    margin-right: 2.25rem;
   }
   .nav-toggle {
     display: block;
@@ -557,9 +560,6 @@ body {
     width: 1.25rem;
     aspect-ratio: 1;
     background-color: transparent;
-  }
-  .icon-cart {
-    margin-right: 2.25rem;
   }
   .primary-nav {
     position: fixed;
